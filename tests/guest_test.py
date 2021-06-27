@@ -15,8 +15,6 @@ class TestGuest(unittest.TestCase):
     def test_guest_has_fav_song(self):
         self.assertEqual("Go Robot",self.guest.fav_song)
 
-    def test_can_add_guest(self):
-        self.guest.add_guest(self.guest.name)
-        self.assertEqual(1, self.guest.guest_list_length())
+    
 
 
